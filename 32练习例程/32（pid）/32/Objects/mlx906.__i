@@ -1,0 +1,4 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\LIB\inc -I .\LIB\src -I .\STARTUP -I .\USER -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\Hardware\OLED -I .\Hardware\LED -I .\SYSTEM\rtc -I .\SYSTEM\i2c -I .\SYSTEM\adc -I .\SYSTEM\nvic
+-I"D:\Keil 5\Keil\STM32F1xx_DFP\2.4.0\Device\Include"
+-D__UVISION_VERSION="535" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD
+-o .\objects\mlx906.o --omf_browse .\objects\mlx906.crf --depend .\objects\mlx906.d "Hardware\MLX906\MLX906.c"

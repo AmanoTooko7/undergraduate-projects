@@ -1,0 +1,4 @@
+--cpp -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\LIB\inc -I .\LIB\src -I .\STARTUP -I .\USER -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\Hardware\OLED -I .\Hardware\LED -I .\SYSTEM\rtc -I .\SYSTEM\i2c -I .\SYSTEM\adc -I .\SYSTEM\nvic -I .\Hardware\MLX90640
+-I"D:\Keil 5\Keil\STM32F1xx_DFP\2.4.0\Device\Include"
+-D__UVISION_VERSION="535" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD
+-o .\objects\mlx90640_i2c_driver.o --omf_browse .\objects\mlx90640_i2c_driver.crf --depend .\objects\mlx90640_i2c_driver.d "Hardware\MLX90640\MLX90640_I2C_Driver.cpp"

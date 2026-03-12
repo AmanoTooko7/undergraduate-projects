@@ -1,0 +1,17 @@
+[2022-06-01 22:29:44]	compilation failed at : "c:\Users\28063\Documents\ARM32开发\32工程\SYSTEM\usart\usart.c", exit code: 1
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <c833688a764e49d8a80e8dad07cf8dd9>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018da] in <c833688a764e49d8a80e8dad07cf8dd9>:0 
+---
+".\..\SYSTEM\usart\usart.c", line 48: Error:  #260-D: explicit type is missing ("int" assumed)
+  _sys_exit(int x) 
+  ^
+.\..\SYSTEM\usart\usart.c: 0 warnings, 1 error
+
+[2022-06-01 22:32:49]	compilation failed at : "c:\Users\28063\Documents\ARM32开发\32工程\SYSTEM\usart\usart.c", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x01860] in <c833688a764e49d8a80e8dad07cf8dd9>:0 
+---
+".\..\SYSTEM\usart\usart.c", line 48: Error:  #260-D: explicit type is missing ("int" assumed)
+  _sys_exit(int x) 
+  ^
+.\..\SYSTEM\usart\usart.c: 0 warnings, 1 error
+
